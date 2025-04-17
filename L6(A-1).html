@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Positioning in CSS
+        </title>
+
+        <style>
+            div{
+                border:2px solid black;
+                color:green;
+                border-radius:10px;
+            }
+
+            div.sticky{/*sticky means that the text gets sticked in a particular place*/
+                border:3px dotted yellow;
+                top:30px;
+                left:15px;
+                position:sticky;
+                background-color:pink;
+                width:500px;
+            }
+
+            div.fixed{
+                border:2px solid red;
+                background-color:blueviolet;
+                right:30px;
+                top:40px;
+                position:fixed;
+                width:300px;
+                color:black;
+                border-radius:30px;
+                
+            }
+
+            div.relative{
+                postion:relative;
+                left:30px;
+                width:400px;
+                border:blue 3px solid;
+
+            }
+
+            div.absolute{
+                position:absolute;
+                left:30px;
+            border:3px solid black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2>Positioning in CSS</h2>
+
+        <div>div with no position property</div>
+
+        <div class="sticky">div with sticky position property</div>
+
+        <div class="fixed">div with fixed position property</div>
+
+        <div class="relative">
+            this div element has position property;
+            <div class="absolute">Absolute class div</div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </body>
+</html>
